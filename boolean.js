@@ -29,3 +29,11 @@ Examples
 3 ===  3  // true
 3 === '3' // false
 //In the second example, 3 is a Number type and '3' is a String type.
+
+//Returning Boolean Values from Functions
+//Since === returns true or false, we can return the result of the comparison:
+
+function isEqual(a, b) {
+    return a === b;
+  }
+  
